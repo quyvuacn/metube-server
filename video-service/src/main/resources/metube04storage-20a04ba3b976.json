@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "metube04storage",
+  "private_key_id": "20a04ba3b97686bd88e27b714a4521c159cf4eee",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCqCDBq4yzfQPcV\nAp5MXGWKOOvhrmBuNNLPenjWbASUtgnzJ0dDzI79CkonfZFUi35rFM84FWnSCUDd\nykuFBkfOHWEO7beu7p3PXzBGZUgFFBD8PCUmkRWr9Y6ORSO7GY3Qq0dlCqRbEhOb\n7VytFcl1TaoeGfKpUU/OJNK9GEvvtalM+pzDvFEesOHJTvTgT9SlHedE0YKQFmH1\nZXR4szSKkD+x5D4gMfUOptHCXQao0de3XmUJrgn/83I1IhHvv3dwCxkxDsdfm/+p\n6LnZlUwpEfuTKcR+iFT1TGUk6D+UuREX1cbJrT/Tn7iSFZZmKYDaCnvVSXlkD3w5\n0CMPzqVRAgMBAAECggEACYiRJ40V2P/Vf02B/qxcI/sEfH4JnhseZasiRQ7taIpN\njRYNR3DAdxp6l6FjmYI55lsfe0HRP63aSPCswr83sAey0Jl3jIOtG8hSP8AyBUbf\nm8l9zzCgd9+DXv0HtmoqYbSGgtStEL0AKHbYlNYh4463gkJGMR+WS1mCWIh0gGBv\nPYRGGc8Wm5VhW5ahQWL9KM6JCz86Akw5slYAdJXD+2nbIH+14J0NYBPJG60YPZSV\nx139AvJKeZnefzun1ArMWms3L5/+8CIqjV9UHV782AXQVT5c3TSXRKOixVreB48i\ngeJ9TEnmCkPDQYxr4fHpJq7QJ+0g7UcXK1vehUxN+QKBgQDwEA0BNxMau9IYHJlv\ndQCAUfGquz3IK56OTOguJkl68Z6VZ2zuDzneZ9sq8Un0btduy91qnN4vyn+wxD0C\nR9YBwr359Rd00UyLMtqru5rSlNTDETybu8ofF6cSBmZs6it8DWsj+lmVtWdzoUc+\n29SNCwd6yrT2m90q8xd1PxLPcwKBgQC1UfEoUBYfzom6LkCotbfaYV3UoLpQ99ls\nDXgftHNHnjrrE8m7z2WCADphhkvyLAbgE093uPU2/oKJzxhcxQJpv6TfGd2qVBxF\nV4iRNBNw3q2o9SYKZUlaqhF9kUkTkSwpbBTSd+E6FJ6OLglrlEdmdfBQfa6B26SF\nnYj0b+W/KwKBgFQ+3cF6aWrtVNp/Vt1FayqdFzk6QoE3xYnctXJUn17U4jk+NX0J\nvN4vBjv4t2Jfb50DUC205UhSQSNwipR9Tz4I8JCCkXu+Y6VJ8HFqAfg6oLvgFav1\naAYnT8tEkbdRKnd7YgkbN0sRgT+T7qPBk8L3huVxs7YDlscWzjmoK9q/AoGAA0Ut\nEksPexdgiIkZBXHxlPC4noMfmSI/O6GqjvfUNHB4I5FBzC9bZ1LVuriPWhjNLvFq\nN4CQe6Nve0jO6a1r87hPIu72foHx2JZRkjzcNObvPuLdAsb84bO7iQY7ySyPHVgj\nsAAVgdSpX2sZJGWSPBjYcrsxkIoDl51VwQLbo+0CgYAGzCCwR5fsGLoTH0aauLcq\nI7m/N62+8X5XQXZSXWWMdGaxgTS/ZOWbm053DHtk8VSyzGBDj4R1FGYMH8Jf5y/v\ncuCnL0iJxSW7w2TDp62cc70IpyyLjB5Y625coq/qVxQh5n7m4IUTq6Eq7+pit26A\nCdOstonm5xqp02f7oyHfEQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "metube-video-bucket-admin@metube04storage.iam.gserviceaccount.com",
+  "client_id": "116198307844566670218",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/metube-video-bucket-admin%40metube04storage.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

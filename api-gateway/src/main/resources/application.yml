@@ -1,0 +1,69 @@
+server:
+  port: ${PORT:8085}
+eureka:
+  client:
+    service-url:
+       defaultZone: ${EUREKA_URL}
+  instance:
+    preferIpAddress: true
+spring:
+  application:
+    name: GATEWAY-SERVICE
+  config:
+    import: optional:file:.env[.properties]
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: AUTH-SERVICE
+          uri: lb://personal-service
+          predicates:
+            - Path=/api/v1/auth/**
+        - id: USER-SERVICE
+          uri: lb://personal-service
+          predicates:
+            - Path=/api/v1/users/**
+          filters:
+            - AuthenticationFilter
+        - id: USER-SERVICE-Role
+          uri: lb://personal-service
+          predicates:
+            - Path=/api/v1/roles/**
+          filters:
+            - AuthenticationFilter
+        - id: ADMIN-SERVICE-Management
+          uri: lb://admin-service
+          predicates:
+            - Path=/api/v1/management/roles/**
+          filters:
+            - AuthenticationFilter
+        - id: VIDEO-SERVICE-VIDEO
+          uri: lb://video-service
+          predicates:
+            - Path=/api/v1/video/**
+          filters:
+            - AuthenticationFilter
+        - id: VIDEO-SERVICE-COMMENT
+          uri: lb://video-service
+          predicates:
+            - Path=/api/v1/video-comment/**
+          filters:
+            - AuthenticationFilter
+        - id: CATEGORY-SERVICE
+          uri: lb://video-service
+          predicates:
+            - Path=/api/v1/category/**
+          filters:
+            - AuthenticationFilter
+        - id: NOTIFY-SERVICE
+          uri: lb://NOTIFY-SERVICE
+          predicates:
+            - Path=/api/v1/notify/**
+        - id: ACCOUNT-TYPE-SERVICE
+          uri: lb://personal-service
+          predicates:
+            - Path=/api/v1/account-type/**
+          filters:
+            - AuthenticationFilter

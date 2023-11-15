@@ -1,0 +1,15 @@
+server:
+  port: ${PORT:8081}
+spring:
+  application:
+    name: PERSONAL-SERVICE
+  config:
+    import: optional:file:.env[.properties]
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+       defaultZone: ${EUREKA_URL}
+  instance:
+    preferIpAddress: true

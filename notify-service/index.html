@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Push Notification Example</title>
+  </head>
+  <body>
+    <h1>Push Notification Example</h1>
+
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.5.0/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.5.0/firebase-analytics.js";
+      import * as firebase from "https://www.gstatic.com/firebasejs/10.5.0/firebase-messaging.js";
+
+      const firebaseConfig = {
+        apiKey: "AIzaSyDbeANQUQ1IXj6-dg5fJycd-c0SqiiuDDA",
+        authDomain: "metube-4937f.firebaseapp.com",
+        projectId: "metube-4937f",
+        storageBucket: "metube-4937f.appspot.com",
+        messagingSenderId: "832858435734",
+        appId: "1:832858435734:web:762036fc802dfc457b52b7",
+        measurementId: "G-P41C3KXJ1X",
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+      console.log(firebase);
+      firebase.getToken('ok').then(data => console.log(data))
+    </script>
+  </body>
+</html>

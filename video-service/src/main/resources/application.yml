@@ -1,0 +1,24 @@
+server:
+  port: ${PORT:8082}
+spring:
+  application:
+    name: VIDEO-SERVICE
+  config:
+    import: optional:file:.env[.properties]
+logging:
+  level:
+    org:
+      hibernate:
+        SQL: DEBUG
+        type:
+          descriptor:
+            sql:
+              BasicBinder: TRACE
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+       defaultZone: ${EUREKA_URL}
+  instance:
+    preferIpAddress: true

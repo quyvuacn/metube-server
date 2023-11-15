@@ -1,7 +1,7 @@
 FROM maven:3.8.4-openjdk-17
 
-COPY . /usr/app/api-gateway
-WORKDIR /usr/app/api-gateway
+COPY . /usr/src/app/api-gateway
+WORKDIR /usr/src/app/api-gateway
 
 RUN mvn clean package
 
